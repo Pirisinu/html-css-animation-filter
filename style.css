@@ -133,3 +133,32 @@
     width: 60px;
     height: 20px;
 }
+/* EX N12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation: anim-top-white 2s linear;
+}
+@keyframes anim-top-white{
+    0% {
+        left: 15%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 15%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: anim-bottom-white 2s linear;
+}
+@keyframes anim-bottom-white{
+    0% {
+        right: 15%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 15%;
+    }
+}
